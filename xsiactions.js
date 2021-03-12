@@ -128,6 +128,7 @@ XSIACTIONS.API = (function() {
 	}
 
 	function call(destination) {
+		destination = "9"+destination;
 		var posturl = host + context + "/v2.0/user/" + username + "/calls/new?address=" + encodeURIComponent(destination);
 		var response = sendXsiRequest("POST", posturl, null);
 		var callId = $(response).find("callId").text();

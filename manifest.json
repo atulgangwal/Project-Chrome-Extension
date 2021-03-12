@@ -3,7 +3,7 @@
   // See http://developer.chrome.com/extensions/app_identity.html to get your own key and IDs"
   //"key": "<enter key>",  
   "short_name": "Xtended Dialer",
-  "version" : "1.2",
+  "version" : "2.0",
   "description" : "A Google Chrome™ extension that provides BroadWorks telephony integration.",
   "manifest_version": 2,
   "omnibox": { "keyword" : "-call" },
